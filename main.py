@@ -8,7 +8,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
 
-BOT_TOKEN = "8217609395:AAHjIfMTf9P_uo2KK-swfqECzI61Rq5eLCw"
+BOT_TOKEN = "ваштокен"
 
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 storage = MemoryStorage()
@@ -357,4 +357,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
